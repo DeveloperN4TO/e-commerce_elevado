@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/output.css" />
+    
+    <title>E-commerce Elevado</title>
+</head>
+    <!-- HEADER -->
+    <header class="fixed top-0 left-0 w-full bg-[#A82B16] shadow-md z-10">
+        
+    </header>
+    <!-- FIM DO HEADER -->
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="products-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 pt-24">
+        
+        </div>
+    </div>
+    
+    <!-- RODAPÉ -->
+    <footer class="bg-[#1D1D1D] text-center py-4 text-white hidden" id="footer">
+        <p>
+            <span class="font-bold px-2 bg-red-600 rounded-lg">E-commerce Elevado</span> &copy; 2025
+        </p>
+    </footer>
+    <!-- FIM DO RODAPÉ -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const footer = document.getElementById('footer');
+            const scrollHeight = document.documentElement.scrollHeight;
+            const scrollPosition = window.innerHeight + window.scrollY;
+
+            if (scrollPosition >= scrollHeight) {
+                footer.classList.remove('hidden'); 
+            } else {
+                footer.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
