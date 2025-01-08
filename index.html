@@ -3,40 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/output.css" />
-    
-    <title>E-commerce Elevado</title>
-</head>
-    <!-- HEADER -->
-    <header class="fixed top-0 left-0 w-full bg-[#A82B16] shadow-md z-10">
-        
-    </header>
-    <!-- FIM DO HEADER -->
-    <!-- CONTEÚDO PRINCIPAL -->
-    <div class="products-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 pt-24">
-        
-        </div>
-    </div>
-    
-    <!-- RODAPÉ -->
-    <footer class="bg-[#1D1D1D] text-center py-4 text-white hidden" id="footer">
-        <p>
-            <span class="font-bold px-2 bg-red-600 rounded-lg">E-commerce Elevado</span> &copy; 2025
-        </p>
-    </footer>
-    <!-- FIM DO RODAPÉ -->
-    <script>
-        window.addEventListener('scroll', function() {
-            const footer = document.getElementById('footer');
-            const scrollHeight = document.documentElement.scrollHeight;
-            const scrollPosition = window.innerHeight + window.scrollY;
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            if (scrollPosition >= scrollHeight) {
-                footer.classList.remove('hidden'); 
-            } else {
-                footer.classList.add('hidden');
-            }
-        });
-    </script>
-</body>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E-commerce Elevado</title>
+  
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  
+</head>
+  
+  <!-- body -->
+  
+  <body>
+    <header>
+      <!--nav bar-->
+      <nav class="navbar navbar-toggleable-md navbar-light pt-4">
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!--logo details-->
+        <a class="navbar-brand ml-auto" href="#">
+            <img src="assets/logo.webp"id="company-logo">
+          </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Saiba Mais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/nav bar-->
+    </header>
+  
+    <!--about-us-->
+    <div class=" jumbotron jumbotron-fluid about-us mt-3">
+      <div class="container sm-center">
+        <h1 class="uppercase">POSSO AJUDAR SUA EMPRESA A INGRESSAR NO MERCADO DIGITAL OU A ALAVANCAR O CRESCIMENTO DA SUA LOJA ONLINE.</h1>
+        <!-- <img src="assets/3d-realistic-growth-graph-isolated-transparent-background_1190912-4740.jpg"id="image ecommerce"> -->
+      </div>
+    </div>
+  
+    <!--portfolio-->
+    <section class="portfolio-content container mt-4 mx-auto d-block" id="portfolio">
+        <h4 class="text-center font-bold text-black">QUEM SOU EU</h4>
+        <div class="row">
+        <div class="col-md-6">
+          <img class="portfolio-img img-fluid" src="assets/Captura de tela de 2024-12-26 23-12-21.png" alt="photographer">
+          <h4 class="portfolio-title">Jeyess Photography</h4>
+          <p class="portfolio-text">Bacon ipsum dolor amet brisket corned beef sirloin tongue ribeye venison. Alcatra kielbasa t-bone tongue, swine turducken boudin pancetta kevin leberkas burgdoggen bacon.</p>
+        </div>
+        <div class="col-md-6">
+          <img class="portfolio-img img-fluid" src="assets/Captura de tela de 2024-12-26 23-12-21.png" alt="avacado-salad">
+          <h4 class="portfolio-title">Avacado Eats</h4>
+          <p class="portfolio-text">Alcatra kielbasa t-bone tongue, swine turducken boudin pancetta kevin leberkas. Bacon ipsum dolor amet brisket corned beef sirloin tongue ribeye venison. </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <img class="portfolio-img img-fluid" src="assets/Captura de tela de 2024-12-26 23-12-21.png" alt="plates">
+          <h4 class="portfolio-title">Kindolk Plates</h4>
+          <p class="portfolio-text">Bacon ipsum dolor amet brisket corned beef sirloin tongue ribeye venison. Alcatra kielbasa t-bone tongue, swine turducken boudin pancetta kevin leberkas burgdoggen bacon.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="bake-img">
+            <img class="portfolio-img img-fluid bake-img-2" src="assets/Captura de tela de 2024-12-26 23-12-21.png" alt="yummy pastries">
+          </div>
+          <h4 class="portfolio-title">Bake920</h4>
+          <p class="portfolio-text">Alcatra kielbasa t-bone tongue, swine turducken boudin pancetta kevin leberkas. Bacon ipsum dolor amet brisket corned beef sirloin tongue ribeye venison. </p>
+        </div>
+      </div>
+    </section>
+  
+    <!--call-out button -->
+    <div id="contact-us"><button type="button" class="btn btn-lg d-block mx-auto my-5 btn-outline-info" data-toggle="modal" data-target="#request">Vamos conversar!</button></div>
+  
+    <!--footer-->
+  
+    <footer class="main-footer">
+      <p>&copy 2017 <a href="https://codepen.io/runaverse">Runaverse</a>All Rights Reserved</p>
+            <title></title>
+            <path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path>
+    </footer>
+  
+    <!-- ==========================
+         FORM MODAL
+    ==============================-->
+    <div id="request" class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Entrar em contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Form goes here...</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info">Submit</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+  
+  </html>
+    
+
 </html>
