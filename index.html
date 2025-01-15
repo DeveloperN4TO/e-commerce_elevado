@@ -2,41 +2,284 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/output.css" />
-    
-    <title>E-commerce Elevado</title>
-</head>
-    <!-- HEADER -->
-    <header class="fixed top-0 left-0 w-full bg-[#A82B16] shadow-md z-10">
-        
-    </header>
-    <!-- FIM DO HEADER -->
-    <!-- CONTEÚDO PRINCIPAL -->
-    <div class="products-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4 pt-24">
-        
-        </div>
-    </div>
-    
-    <!-- RODAPÉ -->
-    <footer class="bg-[#1D1D1D] text-center py-4 text-white hidden" id="footer">
-        <p>
-            <span class="font-bold px-2 bg-red-600 rounded-lg">E-commerce Elevado</span> &copy; 2025
-        </p>
-    </footer>
-    <!-- FIM DO RODAPÉ -->
-    <script>
-        window.addEventListener('scroll', function() {
-            const footer = document.getElementById('footer');
-            const scrollHeight = document.documentElement.scrollHeight;
-            const scrollPosition = window.innerHeight + window.scrollY;
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            if (scrollPosition >= scrollHeight) {
-                footer.classList.remove('hidden'); 
-            } else {
-                footer.classList.add('hidden');
-            }
-        });
-    </script>
-</body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E-commerce Elevado</title>
+    <link rel="icon" type="image/png" href="assets/logo-principal.png">
+
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5528999302813?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+  
+  
+</head>
+  
+  <body>
+    <header>
+      <nav class="navbar navbar-toggleable-md navbar-light pt-4">
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <a class="navbar-brand ml-auto" href="#">
+          <img src="assets/logo-principal.png" id="company-logo" style="width: 150px; height: auto;">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Saiba Mais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+      <div class=" jumbotron jumbotron-fluid about-us mt-3">
+      <div class="container sm-center">
+        <h1 class="uppercase" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw);"><b>Posso ajudar sua empresa a ingressar no mercado digital ou a alavancar o crescimento da sua loja online.</b></h1>
+      </div>
+    </div>
+  
+    <section class="portfolio-content container mt-4 mx-auto d-block" id="portfolio">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <p class="description-text1 font-weight-bold" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw);"><b>Essa sou eu...</b></p>
+          <img class="portfolio-img img-fluid" src="assets/gerente.png" alt="photographer">
+          <h2 class="portfolio-title mt-2" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw);"><b>Beatriz Machado</b></h2>
+          <h4 class="portfolio-title mt-2">Especializada em Marketplaces</h4>
+
+        </div>
+        <div class="col-md-8" style="display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; height: 100%;">
+          <h2 class="description-text1 font-weight-bold" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw); margin-bottom: 10px;">
+              <b>Gerente de E-commerce</b>
+          </h2>
+          <ul class="competencies-list" style="list-style: none; padding: 0; margin: 0;">
+              <li>* Especializada em vendas online</li>
+              <li>* Atuo no mercado online há mais de 6 anos</li>
+              <li>* Experiência em criar lojas online do absoluto zero</li>
+              <li>* Especialização em estratégias de marketing digital</li>
+              <li>* Habilidade em gestão de equipes remotas e presenciais</li>
+              <li>* Proficiência nas principais plataformas de e-commerce do mercado nacional</li>
+              <li>* Domínio em análise de métricas e otimização de vendas</li>
+          </ul>
+      </div>
+      
+      </div>
+
+      <div class="row align-items-center" style="margin-top: 70px;" >
+          <h2 class="portfolio-title mt-2" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw);"><b>O que são os Marketplaces?</b></h2>
+          <p>O marketplace é um modelo de negócio que ganhou força no Brasil em 2012, similar a um shopping virtual. Ele oferece vantagens para o consumidor reunindo diversas marcas e lojas em um só lugar, além de facilitar a procura pelos melhores preços e produtos.</p>
+        </div>
+
+      <div class="sh-section-container container section-justify-height" style="margin-top: 70px;">
+          <div class="fw-row">
+      <div id="text-block-2916e51172f97ff90596ea3dc0413f07" class="sh-text-block">
+        <p class="esq-centro" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw);">
+          <strong>Veja algumas das vantagens do comércio Online</strong>
+      </p>
+            </div>
+      </div>
+      
+      <div class="fw-row" style="background-color: #d0f4d7; padding-left: 20px; padding-right: 20px;">
+        <div class="sh-column sh-column-f2552ecfb2a48e1aaa79bf0854abc99b fw-col-xs-12 fw-col-sm-3 alinha-topo sh-column-mobile-padding" style="height: 300px;">
+        
+        <div class="sh-column-wrapper">
+          
+      <div id="text-block-c3070ed7bea151da04aa93c30a207a05" class="sh-text-block">
+        <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-86994" style="margin: auto; display: block;" src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG3_MarketplacesDigitais.png" alt="" width="110" height="110"></p><p style="text-align: center; margin-top: 10px;"><strong><span style="font-family: 'Fira Mono', monospace; font-size: 21px;">Visibilidade</span></strong></p><p style="text-align: center;"><span style="font-size: 21px;">Qualquer comércio, de qualquer lugar pode ter a visibilidade em escala nacional ou global de seus produtos.</span></p></div>	</div>
+      </div>
+      
+      <div class="sh-column sh-column-d7d50e172be5eb848067047e194da787 fw-col-xs-12 fw-col-sm-3 alinha-topo sh-column-mobile-padding" style="height: 300px;">
+      
+        
+        <div class="sh-column-wrapper">
+          
+      <div id="text-block-792ac52186f5c7c200f086a9a55dc559" class="sh-text-block">
+        <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-86994" style="margin: auto; display: block;" src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG4_MarketplacesDigitais.png" alt="" width="110" height="110"></p><p style="text-align: center; margin-top: 20px;"><strong><span style="font-family: 'Fira Mono', monospace; font-size: 21px;">Tecnologia</span></strong></p><p style="text-align: center;"><span style="font-size: 21px;">Com infraestrutura pronta, você não precisa criar do zero um sistema de devolução ou relacionamento com o cliente, por exemplo.</span></p></div>	</div>
+      </div>
+      
+      <div class="sh-column sh-column-e468bc9e81720b9b45e7a26d52fa76e0 fw-col-xs-12 fw-col-sm-3 alinha-topo sh-column-mobile-padding" style="height: 300px;">
+      
+        
+        <div class="sh-column-wrapper">
+          
+      <div id="text-block-1adb03ccce81c4e38269ffa1fd5074ee" class="sh-text-block">
+        <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-86994" style="margin: auto; display: block;" src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG5_MarketplacesDigitais.png" alt="" width="110" height="110"></p><p style="text-align: center; margin-top: 20px;"><strong><span style="font-family: 'Fira Mono', monospace; font-size: 21px;">Confiança</span></strong></p><p style="text-align: center;"><span style="font-size: 21px;">Um site tradicional, que possui uma boa conduta e protocolos de segurança reforça a confiança ao vender seus produtos.</span></p></div>	</div>
+      </div>
+      
+      <div class="sh-column sh-column-d30866f8303cd25b57d457e4f256eabe fw-col-xs-12 fw-col-sm-3 alinha-topo sh-column-mobile-padding" style="height: 300px;">
+      
+        
+        <div class="sh-column-wrapper">
+          
+      <div id="text-block-5b1d2060ad63d41e7d5038a89ddcb6dc" class="sh-text-block">
+        <p><img loading="lazy" decoding="async" class="alignnone size-full wp-image-86994" style="margin: auto; display: block;" src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG6_MarketplacesDigitais.png" alt="" width="110" height="110"></p><p style="text-align: center; margin-top: 20px;"><strong><span style="font-family: 'Fira Mono', monospace; font-size: 21px;">Crescimento</span></strong></p><p style="text-align: center;"><span style="font-size: 21px;">Caso seu negócio já exista fisicamente, você está expandindo para um novo mercado de maneira praticamente gratuita.</span></p></div>	</div>
+      </div>
+      </div>
+      
+      <div class="row pt-4">
+        <div class="col-md-20">
+          <h4 class="portfolio-title md-10 margin-top-50" style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(8px + 1.3vw); margin-top: 70px;"><b>O CRESCIMENTO DO MERCADO ONLINE NO BRASIL É INCONTÁVEL!</b></h4>
+          <p class="portfolio-text">Em 2019, o faturamento das vendas online no Brasil era de R$ 214 bilhões...Em 2024 esse número praticamente dobrou para R$ 414 bilhões. 
+            Está presente no mercado online não é mais uma opção, é uma necessidade para quem deseja crescer.
+            Se o seu negócio ainda não está aproveitando as oportunidades do e-commerce, você está deixando dinheiro na mesa. 
+            A consultoria certa pode ser a chave para o seu sucesso no ambiente digital. Ajudo sua empresa a entrar ou se destacar nesse mercado promissor, com estratégias personalizadas e soluções que vão levar seu negócio para outro nível..</p>
+          <img class="portfolio-img img-fluid" src="assets/grafico1.jpeg" alt="plates">
+          <img class="portfolio-img img-fluid" src="assets/grafico2.jpeg" alt="plates">
+        </div>
+
+        <div class="col-md-20">
+          <section class="sh-section" style="background-color: #f8f8f8; padding: 40px 0; margin-top: 70px">
+            <div class="sh-section-overlay"></div>
+            <div class="sh-section-container container">
+        
+              <div class="row">
+                <div class="col-12 text-center">
+                  <p class="titulo" style="font-size: 30px; margin-bottom: 40px;">O boom dos <strong>Marketplaces</strong> no Brasil</p>
+                </div>
+              </div>
+        
+              <div class="data-section" style="margin-top: 70px;">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p style="font-size: 25px;"><strong>Em 2017</strong></p>
+                  </div>
+                </div>
+                <div class="row text-center align-items-center">
+                  <div class="col-sm-4">
+                    <img src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG11_MarketplacesDigitais.png" alt="" style="margin: auto; display: block; width: 140px;">
+                    <p style="font-size: 21px; margin-top: 30px;">Apenas <strong>47%</strong> dos brasileiros já haviam feito uma compra na Amazon.</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p class="titulo" style="background-color: #893168; padding: 10px 30px; color: #fff;"><strong>Porém</strong></p>
+                  </div>
+                  <div class="col-sm-4">
+                    <p><span style="color: #893168; font-size: calc(30px + 1.3vw);"><strong>55%</strong></span></p>
+                    <p style="font-size: 21px; margin-top: 30px;">Checavam o preço dos produtos na Amazon antes de comprar.</p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="data-section" style="margin-top: 70px;"> 
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p style="font-size: 25px;"><strong>Em 2018</strong></p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-sm-2 text-center">
+                    <img src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG12_MarketplacesDigitais.png" alt="" width="130" height="130">
+                  </div>
+                  <div class="col-sm-4">
+                    <p><span style="color: #893168; font-size: calc(30px + 1.3vw);"><strong>58%</strong></span></p>
+                    <p style="font-size: 21px;">Ainda não sabiam exatamente o que era um Marketplace.</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <blockquote style="font-size: 21px;">“O modelo de marketplace ainda é pouco reconhecido pelos consumidores, que na maioria dos casos, percebem apenas que a compra foi realizada em uma loja parceira quando recebem o produto em casa.”</blockquote>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="data-section" style="margin-top: 70px;">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p style="font-size: 25px;"><strong>já em 2019</strong></p>
+                  </div>
+                </div>
+                <div class="row align-items-center">
+                  <div class="col-sm-6">
+                    <p style="text-align: center;">
+                      <span style="color: #893168; font-size: calc(30px + 1.3vw);"><strong>95%</strong></span>
+                    </p>
+                    <p style="font-size: 21px;">Dos brasileiros que compram online já haviam feito alguma compra em um marketplace.</p>
+                    <p style="font-size: 21px; margin-top: 15px;">
+                      Esse dado reflete o crescimento constante da confiança dos usuários nas compras online. A familiaridade com o modelo de marketplace contribuiu para a aceitação do público, que passou a enxergar essas plataformas como uma alternativa prática e segura para adquirir produtos diversos.
+                    </p>
+                  </div>
+                  <div class="col-sm-6">
+                    <img src="https://genteglobo.s3.amazonaws.com/wp-content/uploads/2022/05/IMG13_MarketplacesDigitais.png" alt="" style="margin: auto; display: block;" width="500" height="405">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+          <p style="font-family: 'Fira Mono', monospace; font-weight: 400; font-size: calc(10px + 1.3vw); text-align: center; margin-top: 80px;">
+            <b>Atuo nos principais marketplaces do Brasil</b>
+          </p>
+          
+          <div class="marketplace-icons">
+            <img src="assets/mercadolivre.png" alt="Mercado Livre" width="100"  style="margin: 15px;">
+            <img src="assets/shopee.png" alt="Shopee" width="100" style="margin: 15px;">
+            <img src="assets/amerianas.png" alt="Americanas" width="100" style="margin: 15px;">
+            <img src="assets/casasbahia.png" alt="Casas Bahia" width="100" style="margin: 15px;">
+            <img src="assets/pontoFrio.png" alt="Ponto Frio" width="100" style="margin: 15px;">
+            <img src="assets/submarino.png" alt="Submarino" width="100" style="margin: 15px;">
+            <img src="assets/amazon.png" alt="Amazon" width="100" style="margin: 15px;">
+            <img src="assets/olist2.png" alt="Olist" width="100" style="margin: 15px;">
+          </div>
+        </div>
+    </section>
+  
+    <div id="contact-us"><button type="button" class="btn btn-lg d-block mx-auto my-5 btn-outline-info" data-toggle="modal" data-target="#request">Vamos conversar!</button></div>
+
+    </div>
+  
+    <div id="request" class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Entrar em contato</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <p>Para entrar em contato, clique no botão abaixo e você será redirecionado para o envio de e-mail.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-info" id="sendEmailButton">Contatar</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <script>
+      document.getElementById('sendEmailButton').addEventListener('click', function (event) {
+          event.preventDefault();
+
+          const recipient = "beatrizmachado.es@gmail.com";
+          const subject = "Contato através do site";
+          const body = "Olá, vi sua página de consultoria e gostaria de entrar em contato com você.";
+          
+          const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(recipient)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  
+          window.open(gmailLink, '_blank');
+      });
+
+  </script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ 
+    <footer class="main-foote align-items-center">
+      <p>&copy 2025 E-commerce Elevado</p>
+            <title></title>
+    </footer>
+
+  </body>
+  </html>
 </html>
